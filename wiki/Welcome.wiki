@@ -27,6 +27,6 @@ To start MATE, type at the command prompt
 
 Two preference files, called `pref.red` and `attrvalue.red`, will be automatically created in your home directory. If you want to keep them in another location, or if you want to use existing preference files that are stored somewhere else, you can use the `-Duser.home` option when launching MATE:
 
-{{{java -jar -Duser.home=/path/to/prefs/main/prefs/}}}
+{{{java -jar -Duser.home=/path/to/prefs/main/prefs/ /path/to/mate.jar}}}
 
 (where `/path/to/prefs/` is the path to the directory where you want your preference files to be saved).
