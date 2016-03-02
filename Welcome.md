@@ -1,0 +1,30 @@
+# Introduction #
+
+MATE is a grammar and dictionary editor and interpreter that can handle both phrase-structure and dependency grammars.
+
+
+# Installation #
+
+## System requirements ##
+
+MATE runs on all major platforms and requires Java 6. We recommend 1 GB of RAM.
+
+## Getting the files ##
+
+You only need the `.jar` file that is available from the [downloads](http://code.google.com/p/mate-gt/downloads) section. Save it wherever you like on your computer.
+
+
+# Running MATE #
+
+To start MATE, type at the command prompt
+
+`java -jar /path/to/mate.jar`
+
+(where `/path/to/mate.jar` is the path to where you saved the `.jar` file).
+
+
+Two preference files, called `pref.red` and `attrvalue.red`, will be automatically created in your home directory. If you want to keep them in another location, or if you want to use existing preference files that are stored somewhere else, you can use the `-Duser.home` option when launching MATE:
+
+`java -jar -Duser.home=/path/to/prefs/main/prefs/ /path/to/mate.jar`
+
+(where `/path/to/prefs/` is the path to the directory where you want your preference files to be saved).
